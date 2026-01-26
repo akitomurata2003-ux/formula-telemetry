@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'udp_json_to_telemetry = telemetry_bridge.udp_json_to_telemetry:main',
         ],
     },
 )
